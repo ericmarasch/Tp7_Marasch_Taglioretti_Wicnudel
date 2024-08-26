@@ -1,0 +1,60 @@
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\appsettings.Development.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\appsettings.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\TP_PREGUNTADOS_1.staticwebassets.runtime.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\TP_PREGUNTADOS_1.exe
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\TP_PREGUNTADOS_1.deps.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\TP_PREGUNTADOS_1.runtimeconfig.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\TP_PREGUNTADOS_1.dll
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\bin\Debug\net8.0\TP_PREGUNTADOS_1.pdb
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.AssemblyInfoInputs.cache
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.AssemblyInfo.cs
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.csproj.CoreCompileInputs.cache
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.MvcApplicationPartsAssemblyInfo.cache
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.RazorAssemblyInfo.cache
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.RazorAssemblyInfo.cs
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets.build.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets.development.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets\msbuild.TP_PREGUNTADOS_1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets\msbuild.build.TP_PREGUNTADOS_1.props
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP_PREGUNTADOS_1.props
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP_PREGUNTADOS_1.props
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\scopedcss\bundle\TP_PREGUNTADOS_1.styles.css
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\scopedcss\projectbundle\TP_PREGUNTADOS_1.bundle.scp.css
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.dll
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\refint\TP_PREGUNTADOS_1.dll
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.pdb
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\TP_PREGUNTADOS_1.genruntimeconfig.cache
+D:\ORT 2024\Programación\TP_PREGUNTADOS_1\obj\Debug\net8.0\ref\TP_PREGUNTADOS_1.dll
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\appsettings.Development.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\appsettings.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\TP_PREGUNTADOS_1.staticwebassets.runtime.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\TP_PREGUNTADOS_1.exe
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\TP_PREGUNTADOS_1.deps.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\TP_PREGUNTADOS_1.runtimeconfig.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\TP_PREGUNTADOS_1.dll
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\bin\Debug\net8.0\TP_PREGUNTADOS_1.pdb
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.AssemblyInfoInputs.cache
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.AssemblyInfo.cs
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.csproj.CoreCompileInputs.cache
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.MvcApplicationPartsAssemblyInfo.cache
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.RazorAssemblyInfo.cache
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.RazorAssemblyInfo.cs
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets.build.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets.development.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets\msbuild.TP_PREGUNTADOS_1.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets\msbuild.build.TP_PREGUNTADOS_1.props
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP_PREGUNTADOS_1.props
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP_PREGUNTADOS_1.props
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\staticwebassets.pack.json
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\scopedcss\bundle\TP_PREGUNTADOS_1.styles.css
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\scopedcss\projectbundle\TP_PREGUNTADOS_1.bundle.scp.css
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.dll
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\refint\TP_PREGUNTADOS_1.dll
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.pdb
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.genruntimeconfig.cache
+Z:\Programación 2024\TP_ 2_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\ref\TP_PREGUNTADOS_1.dll
