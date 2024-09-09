@@ -1,0 +1,37 @@
+@{
+    if (ViewBag.Respuesta == true)
+        ViewBag.Mensaje = "Tu respuesta es correcta";
+    else
+        ViewBag.Mensaje = "Sigue jugando";
+
+    ViewBag.Titulo = ViewBag.Mensaje;
+}
+
+<div class="container">
+    <div class="card">
+        @if (ViewBag.ProximaPregunta.Foto != null)
+        {
+            <img src="@ViewBag.ProximaPregunta.Foto" class="card-img-top" alt="Foto de la pregunta">
+        }
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.ProximaPregunta.Enunciado</h5>
+        </div>
+    </div>
+    @if (ViewBag.Respuesta)
+    {
+        <div class="respuesta mt-2 mb-2 p-5 text-light bg-success text-center">
+            <h1>@ViewBag.Mensaje</h1>
+            <img class="img-fluid" src="~/img/Respuesta/Incorrecta.png">
+        </div>
+    }
+    else {
+        <div class="respuesta mt-2 mb-2 p-5 text-light bg-danger text-center">
+            <h1>@ViewBag.Mensaje</h1>
+            <p>Era "@ViewBag.Correcta"</p>
+            <img class="img-fluid" src="~/img/Respuesta/Incorrecta.png">
+        </div>
+    }
+    <p>Tu puntaje actual:  @ViewBag.PuntajeActual ₧</p>
+    <p><a class="btn" href="@Url.Action("Jugar")">Siguiente pregunta</a></p>
+</div>
+

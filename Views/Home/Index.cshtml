@@ -2,39 +2,9 @@
     ViewData["Title"] = "Preguntados";
 }
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="@Url.Action("Index", "Home")">Inicio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Index", "Home")">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Privacy", "Home")">Privacy</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Creditos", "Home")">Créditos</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class= "ruletovich">
-    <div class="triangle-indicator"></div>
-    <div class="roulette">
-        <div class="slice" style="--i: 0;"></div>
-        <div class="slice" style="--i: 1;"></div>
-        <div class="slice" style="--i: 2;"></div>
-        <div class="slice" style="--i: 3;"></div>
-        <div class="slice" style="--i: 4;"></div>
-        <div class="slice" style="--i: 5;"></div>
-        <div class="slice" style="--i: 6;"></div>
-        <div class="slice" style="--i: 7;"></div>
-        <div class="center-circle"></div>
-    </div>
+<div class="container text-center index">
+    <img class="logo" src="~/img/Marca/LogotipoClaro.png" alt="Logo de PreguntadOrt">
+    <h1 class="fs-3">PREGUNTADOS</h1>
+    <p class="fs-4">Comienza a Jugar</p>
+    <p><a class="btn" href='@Url.Action("ConfigurarJuego")'>Iniciar juego</a></p>
 </div>

@@ -1,0 +1,77 @@
+@{
+    ViewBag.Title = "Configurar Juego";
+}
+
+<div class="container fueraJuego">
+    <h2>Configurar Juego</h2>
+<div class="mb-3">
+<h2>Dificultad</h2>
+<div class="row row-cols-sm-4">
+    @if (ViewBag.Dificultades.Count > 0)
+        {
+            <div class="form-check">
+            <input type="radio" class="form-check-input" id="dificultad-todas" name="dificultad" value="-1" checked required>
+            <label class="form-check-label" for="dificultad-todas">Todas</label>
+            </div>
+    foreach (Dificultad dificultad in ViewBag.Dificultades)
+        {
+            <div class="form-check">
+            <input type="radio" class="form-check-input" id="dificultad-@dificultad.IdDificultad" name="dificultad" value="@dificultad.IdDificultad" required>
+            <label class="form-check-label" for="dificultad-@dificultad.IdDificultad">@dificultad.Nombre</label>
+            </div>
+        }
+            <p class="invalid-feedback">Seleccione una dificultad.</p>
+        }
+        else
+        {
+            <p class="text-secondary">No hay dificultades :/</p>
+        }
+            </div>
+        </div>
+
+       <div class="mb-3">
+            <h2>Categoria</h2>
+            <div class="row row-cols-lg-3">
+                @if (ViewBag.Categorias.Count > 0)
+                {
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="categoria-todas" name="categoria" value="-1" checked required>
+                        <label class="form-check-label" for="categoria-todas">
+                            <img src="/img/Preguntados.png" alt="Icono de todas">
+                            <span>Todas</span>
+                        </label>
+                    </div>
+                    foreach (Categoria categoria in ViewBag.Categorias)
+                    {
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="categoria-@categoria.IdCategoria" name="categoria" value="@categoria.IdCategoria" required>
+                            <label class="form-check-label" for="categoria-@categoria.IdCategoria">
+                                @if (categoria.Foto != null)
+                                {
+                                    <img src="@categoria.Foto" alt="Icono de @categoria.Nombre">
+                                }
+                                else
+                                {
+                                    <img src="/img/placeholder.bmp" alt="Placeholder">
+                                }
+                                <span>@categoria.Nombre</span>
+                            </label>
+                        </div>
+                    }
+                    <p class="invalid-feedback">Seleccione una categoría.</p>
+                }
+                else
+                {
+                    <p class="text-secondary">No hay categorias :/</p>
+                }
+            </div>
+
+        <div class="mb-3">
+            <h2>Username</h2>
+            <input type="text" class="form-control" name="username" autocomplete="off" placeholder="Historia" required>
+            <p class="invalid-feedback">Seleccione un nombre de usuario.</p>
+        </div>
+        <div>
+            <input class="btn btn-primary" type="submit" value="¡Jugar!">
+        </div>
+</div>

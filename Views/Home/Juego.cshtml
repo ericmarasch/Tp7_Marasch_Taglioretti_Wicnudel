@@ -1,0 +1,66 @@
+@{
+    ViewBag.Title = "Juego";
+    var username = ViewBag.Username;
+    var puntajeActual = ViewBag.PuntajeActual;
+    var pregunta = ViewBag.Pregunta;
+    var respuestas = ViewBag.Respuestas;
+    var numeroPregunta = ViewBag.NumeroPregunta;
+}
+
+<div class="juego-container">
+    <div class="row">
+        <div class="juego-header">
+            <h2 class="mb-4">Juego en Progreso</h2>
+            <p><strong>Usuario:</strong> @username</p>
+            <p><strong>Puntaje Actual:</strong> @puntajeActual</p>
+        </div>
+    </div>
+
+<div class="ruletovich">
+  <div class="triangle-indicator"></div>
+  <div class="roulette">
+    <div class="slice" style="--i: 0;">Ciencia</div>
+    <div class="slice" style="--i: 1;">Historia</div>
+    <div class="slice" style="--i: 2;">Geografía</div>
+    <div class="slice" style="--i: 3;">Entretenimiento</div>
+    <div class="slice" style="--i: 4;">Deportes</div>
+    <div class="center-circle">Jugar</div>
+  </div>
+</div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Pregunta @numeroPregunta:</h3>
+            <p>@pregunta.Texto</p>
+        </div>
+    </div>
+</div>
+    <form method="post" action='@Url.Action("VerificarRespuesta")'>
+        <div class="row">
+            @foreach (var respuesta in respuestas)
+            {
+                <div class="col-md-6 mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="respuesta_@respuesta.Id" name="idRespuesta" value="@respuesta.Id" required>
+                        <label class="form-check-label" for="respuesta_@respuesta.Id">
+                            @respuesta.Texto
+                            @if (!string.IsNullOrEmpty(respuesta.ImagenUrl))
+                            {
+                                <br />
+                                <img src="@respuesta.ImagenUrl" alt="Imagen de la respuesta" class="img-fluid mt-2">
+                            }
+                        </label>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <input type="hidden" name="IdPregunta" value="@pregunta.Id" />
+
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Responder</button>
+            </div>
+        </div>
+    </form>
+</div>
